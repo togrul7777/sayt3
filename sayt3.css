@@ -1,0 +1,602 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------ */
+
+/* nav */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 2;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav .container>a {
+    display: flex;
+    align-items: center;
+}
+
+nav .container>a img {
+    width: 170px;
+    height: 100%;
+}
+
+nav ul li a:hover {
+    color: #ffc800;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    font-family: "Montserrat";
+    cursor: pointer;
+}
+
+
+
+
+/* nav */
+
+
+
+
+/* header */
+header {
+    height: 800px;
+    text-align: center;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 300px;
+    color: white;
+
+}
+
+header>h1 {
+
+    font-size: 75px;
+}
+
+header>h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+header a {
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #ffc800;
+    border-radius: 5px;
+    padding: 25px 40px;
+    margin-top: 30px;
+    left: 43%;
+    z-index: 1;
+}
+
+header a:hover {
+    background-color: #d9aa00;
+}
+
+/* header */
+
+
+/* page2 */
+
+.container strong {
+    font-size: 20px;
+}
+
+.container p {
+    font-size: 20px;
+
+}
+
+
+
+.sctn2 {
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    padding-top: 150px;
+    background-color: white;
+
+}
+
+.sctn2 .page2 {
+    font-weight: bolder;
+    font-size: 40px;
+    color: #2b343b;
+}
+
+.sctn2 .page3 {
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(124, 121, 121);
+    margin-bottom: 40px;
+
+}
+
+
+.box {
+    width: 80%;
+    color: #292b2c;
+    margin: auto;
+    display: flex;
+}
+
+.boxone {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxone i {
+    line-height: 150px;
+    font-size: 70px;
+    left: 47px;
+    top: 35px;
+    color: white;
+}
+
+.boxone span {
+    width: 150px;
+    height: 150px;
+    background-color: #ffc800;
+    border-radius: 50%;
+}
+
+
+
+h4 {
+    margin-top: 20px;
+
+}
+
+h4 strong {
+    font-size: 24px;
+}
+
+.boots {
+    color: rgb(128, 125, 125);
+}
+
+/* page2 */
+
+
+
+/* page3 */
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.portfolio h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.portfolio p {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+.card-item {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    margin: auto 55px;
+}
+
+.img-item {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+
+}
+
+
+.img-item img {
+    position: relative;
+    max-width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.img-item h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.img-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+.img-item:hover {
+
+    background-color: rgba(255, 200, 0, 0.9);
+    opacity: 1;
+    transition: 0.25s;
+}
+
+
+.img-item {
+    position: relative;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+
+
+.plus {
+    position: absolute;
+    top: 25%;
+    left: 42.5%;
+    font-size: 100px;
+    color: white;
+    padding: 0px;
+    display: none;
+}
+
+.img-item:hover .plus {
+    display: block;
+}
+
+/* page3 */
+
+
+
+
+
+/* page4 */
+
+
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.about-cont {
+    position: relative;
+}
+
+.about-cont::before {
+    content: '';
+    width: 2px;
+    height: 100%;
+    background-color: darkgray;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
+}
+
+.about-div {
+    width: calc(50% + 85px);
+    display: flex;
+    text-align: right;
+    gap: 25px;
+    margin-bottom: 150px;
+    justify-content: flex-end;
+}
+
+.about-div .text {
+    width: 420px;
+
+}
+
+.about-div .text h4 {
+    font-size: 24px;
+
+}
+
+.about-div .text p {
+    color: #888;
+}
+
+.about-div .circle {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid darkgray;
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-div:nth-of-type(even) {
+    margin-left: auto;
+    text-align: left;
+    flex-direction: row-reverse;
+}
+
+.about-cont>h1,
+p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.about-cont>p {
+    font-style: italic;
+    color: #888;
+
+}
+
+
+
+
+
+
+/* page4 */
+
+
+/* page5 */
+.ourteam {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    /* padding: 50px 20px; */
+}
+
+.ourteam h1 {
+    font-size: 36px;
+
+}
+
+.ourteam p {
+    font-size: 16px;
+    color: #888;
+    /* margin-bottom: 40px; */
+    font-style: italic;
+}
+
+
+.ourt {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    list-style-type: none;
+}
+
+.ourt .contentbox {
+    width: 100%;
+}
+
+.ourt .contentbox>img {
+    display: flex;
+    margin: auto;
+    border: 8px solid rgb(219, 219, 219);
+    width: 50%;
+    border-radius: 50%;
+
+
+
+}
+
+.writebox h4 {
+    font-size: 24px;
+}
+
+.writebox p {
+    color: #888;
+}
+
+.writebox h4,
+p {
+    text-align: center;
+}
+
+.iconbox {
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 35px;
+}
+
+.iconbox a i {
+    color: #292b2c;
+
+}
+
+.loremtext {
+    margin: auto;
+    width: 60%;
+    height: 200px;
+    text-align: center;
+    color: #555;
+    font-size: 18px;
+}
+
+/* page5 */
+
+
+/* page6 */
+
+.imagesection {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    gap: 20px;
+    justify-content: space-evenly;
+    background-color: white;
+    align-items: center;
+}
+
+.imagesection img {
+
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+
+}
+
+/* page6 */
+
+
+
+/* page7 */
+
+
+.container-contact {
+    width: 100%;
+    height: 650px;
+    padding: 100px;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png);
+    background-position: center;
+    background-size: cover;
+    background-color: #292b2c;
+}
+
+
+.text-center>h2 {
+    font-size: 45px;
+}
+
+.text-center>h3 {
+    color: #888;
+    font-style: italic;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    padding: 20px;
+}
+
+.text-center>h2,
+h3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.formdiv form {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formdiv form textarea {
+    position: absolute;
+    display: flex;
+    width: 50%;
+    border-radius: 8px;
+    right: 15px;
+
+    height: 265px;
+
+}
+
+
+.formdiv form input {
+
+    width: 45%;
+    height: 75px;
+    border-radius: 10px;
+
+}
+
+.formdiv form a {
+    display: flex;
+    width: 300px;
+    height: 70px;
+    margin: auto;
+    color: white;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #d9aa00;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+/* page7 */
+
+
+/* page8 */
+
+
+.footer {
+    height: 50px;
+    display: flex;
+    justify-content:space-around;
+    gap: 20px;
+}
+
+.footer p {
+
+    font-size: 20px;
+    color: #888;
+}
+.a-div{
+
+    display: flex;
+    gap: 30px;
+
+}
+.a-div a i {
+    /* padding: 0  15px; */
+    font-size: 35px;
+    color: black;
+
+}
+
+.privacy {
+    display: flex;
+    gap: 20px;
+}
